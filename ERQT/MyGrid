@@ -1,0 +1,10 @@
+HUB
+
+java -jar C:\Users\MATEEQ\Downloads\selenium-server-standalone-3.5.0.jar -role hub
+
+
+NODE
+
+Java -Dwebdriver.chrome.driver="C:\Users\MATEEQ\Downloads\New folder (2)\New folder\chromedriver.exe"  -jar C:\Users\MATEEQ\Downloads\selenium-server-standalone-3.5.0.jar -role node -hub http://192.168.0.114:4444/grid/register/  -port 5555
+
+
