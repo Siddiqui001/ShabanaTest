@@ -4,10 +4,11 @@
 
 
 
-	<test name="Upload" parallel = "methods" thread-count = "10">
+	<test name="Upload" >
 		<classes>
 
-			<class name="com.sample.FirstTestNG" />
+			<class name="testcases.XYZModule" />
+			<class name="testcases.TWG" />
 			
 		</classes>
 	</test>

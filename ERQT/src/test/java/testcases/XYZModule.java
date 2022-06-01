@@ -12,7 +12,7 @@ import com.core.BaseEngine;
 import com.shabana.pages.HomePage;
 import com.shabana.pages.LoginPage;
 
-public class Tests extends BaseEngine {
+public class XYZModule extends BaseEngine {
 
 	@Test
 	public void verifythePageTitle() throws IOException {
